@@ -1,30 +1,24 @@
 $(function() {
-// Declare Variables 
-//value = what they wrote 
-//time =
+
  $(".saveBtn").on("click", function(){
-    var value = $(this).siblings(".description").val()
+    var value = $(this).siblings(".description").val();
     var time = $(this).parent().attr("id");
-    localStorage.setItem(time,value)
+    localStorage.setItem(time,value);
  })
 
-//create function 
-//see what time it is 
-//loop over each time block 
-//check to see if the time block now 
 function currentTime() {
     var currentHour = moment().hours();
     $(".time-block").each(function (){
-        var timeBlock = parseInt($(this).attr("id").split("-")[1])
+        var timeBlock = parseInt($(this).attr("id").split("-")[1]);
         if (timeBlock < currentHour) {
-            $(this).addClass("past")
+            $(this).addClass("past");
         } else if (timeBlock === currentHour) {
-            $(this).addClass("present")
-            $(this).removeClass("past")
+            $(this).addClass("present");
+            $(this).removeClass("past");
         } else {
-            $(this).addClass("future")
-            $(this).removeClass("past")
-            $(this).removeClass("present")
+            $(this).addClass("future");
+            $(this).removeClass("past");
+            $(this).removeClass("present");
         }
     })
 } 
@@ -42,5 +36,5 @@ $("#hour-16 .description").val(localStorage.getItem("hour-16"));
 $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 
 
-$("#currentDay").text(moment().format("dddd, MMMM Do"))
+$("#currentDay").text(moment().format("dddd, MMMM Do"));
 });
