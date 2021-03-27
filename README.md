@@ -25,3 +25,5 @@ This has been executed through the use of CSS, HTML, jQuery and JavaScript.
 Website Link
 Website Link Website GitHub Repository URL: git@github.com:dejagraver/Work-Day-Planner.git
 Application GitHub URL: https://dejagraver.github.io/Work-Day-Planner/
+
+![Uploading image.png…]()
