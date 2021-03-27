@@ -23,7 +23,7 @@ Technologies Built
 This has been executed through the use of CSS, HTML, jQuery and JavaScript.
 
 Website Link
-Website Link Website GitHub Repository URL: git@github.com:dejagraver/Work-Day-Planner.git
+Website Link Website GitHub Repository URL: https://github.com/dejagraver/Work-Day-Planner
 Application GitHub URL: https://dejagraver.github.io/Work-Day-Planner/
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/78667882/112726612-baad0e00-8ef4-11eb-8b04-3147dff2e14f.png">
