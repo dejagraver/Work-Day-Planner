@@ -32,24 +32,15 @@ currentTime();
 
 var interval = setInterval(currentTime, 15000);
 $("#hour-9 .description").val(localStorage.getItem("hour-9"));
-
-///repeat the var interval 9-5 in 24 hour time 
-//set hour nine to this thing that we put in .val
-//write something and save it 
-//get item out of local storage 
+$("#hour-10 .description").val(localStorage.getItem("hour-10"));
+$("#hour-11 .description").val(localStorage.getItem("hour-11"));
+$("#hour-12 .description").val(localStorage.getItem("hour-12"));
+$("#hour-13 .description").val(localStorage.getItem("hour-13"));
+$("#hour-14 .description").val(localStorage.getItem("hour-14"));
+$("#hour-15 .description").val(localStorage.getItem("hour-15"));
+$("#hour-16 .description").val(localStorage.getItem("hour-16"));
+$("#hour-17 .description").val(localStorage.getItem("hour-17"));
 
 
 $("#currentDay").text(moment().format("dddd, MMMM Do"))
-
-
-
-  
-
-//Create Local Storage for timeline saved events 
-//.this refers to the actual elements
-  //is always a reference to an object and in strict mode can beany value
- 
-//Create function that determined row color based on time 
-    //if time < present red, else if time is > then present green
-
 });
