@@ -26,4 +26,4 @@ Website Link
 Website Link Website GitHub Repository URL: git@github.com:dejagraver/Work-Day-Planner.git
 Application GitHub URL: https://dejagraver.github.io/Work-Day-Planner/
 
-![Uploading image.png…]()
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/78667882/112726612-baad0e00-8ef4-11eb-8b04-3147dff2e14f.png">
